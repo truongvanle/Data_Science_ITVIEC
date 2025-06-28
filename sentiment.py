@@ -26,7 +26,7 @@ data = pd.read_excel('Reviews.xlsx')
 
 
 # Thanh bên (Sidebar)
-st.sidebar.image("channels4_banner.jpg", use_container_width=True)
+st.sidebar.image("../channels4_banner.jpg", use_container_width=True)
 st.title("ITVIEC SENTIMENT ANALYSIS AND CLUSTERING")
 
 # Menu
