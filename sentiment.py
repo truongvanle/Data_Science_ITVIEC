@@ -22,7 +22,7 @@ nltk.download('stopwords')
 st.set_page_config(page_title="SENTIMENT ANALYSIS AND INFORMATION CLUSTERING FOR ITVIEC", layout="wide")
 
 # Tải dữ liệu
-data = pd.read_csv('final_data.csv')
+data = pd.read_excel('Reviews.xlsx')
 
 
 # Thanh bên (Sidebar)
